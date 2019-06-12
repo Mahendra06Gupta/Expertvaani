@@ -1,0 +1,22 @@
+Form {
+  width: 332px;
+  button{
+    border: 1px solid #dedfe0 !important;
+  }
+  span {
+    i {
+      font-size: 18px !important;
+      left: 16px;
+    }
+    img {
+      width: 45px;
+    }
+    input {
+      height: 50px;
+    }
+    .p-float-label input.p-filled ~ label {
+      top: -.75em;
+      font-size: 16px !important;
+    }
+  }
+}
